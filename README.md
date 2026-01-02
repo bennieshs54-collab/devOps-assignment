@@ -48,7 +48,7 @@ sudo yum install epel-release -y
 
 sudo yum install htop -y
 
-<img width="1280" height="768" alt="htop" src="https://github.com/user-attachments/assets/e8c807db-e44e-4e2b-a6b1-5c3f80831e54" />
+<img width="1280" height="798" alt="Htop install" src="https://github.com/user-attachments/assets/2a3ab28e-4259-4f61-bfa5-f908b4a5d2c1" />
 
 *Monitoring Commands*
 htop
