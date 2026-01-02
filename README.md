@@ -28,10 +28,12 @@ Fresher DevOps Engineer
 ### Installed Tools
 - htop
 
-<img width="1280" height="768" alt="epel install" src="https://github.com/user-attachments/assets/d95179fa-f821-4e46-9b14-0bb797674c54" />
+<img width="1280" height="768" alt="htop" src="https://github.com/user-attachments/assets/3c7fe66d-cd5c-46c5-8257-5c07c2afbc73" />
+
 
 - df
-<img width="751" height="202" alt="df -h" src="https://github.com/user-attachments/assets/499e44d4-4492-4590-a74d-da53d151d3c0" />
+<img width="751" height="202" alt="df -h" src="https://github.com/user-attachments/assets/565afb4f-a661-4f75-b43e-868856e2b565" />
+
 
   
 - du
