@@ -1,5 +1,4 @@
 # devOps-assignment
-devOps assignment - 3
 <p>
   # DevOps Assignment 3 – System Monitoring, User Management & Backup Automation
 
