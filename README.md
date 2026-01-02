@@ -39,11 +39,11 @@ Fresher DevOps Engineer
 - du
 - ps
 
-### Commands Used
-```bash
+Commands Used
+
 sudo yum install epel-release -y
 
-<img width="1280" height="768" alt="epel install" src="https://github.com/user-attachments/assets/335af48b-caab-4a7d-99b9-b04141a6fb30" />
+<img width="1280" height="768" alt="epel install" src="https://github.com/user-attachments/assets/a47123ca-2149-488e-87de-26e46918bc73" />
 
 
 sudo yum install htop -y
@@ -63,10 +63,10 @@ ps aux --sort=-%mem | head
 
 ---
 
-## 📄 `task1-system-monitoring/system_monitor.sh`
+system-monitoring/system_monitor.sh`
 
-```bash
-#!/bin/bash
+
+!/bin/bash
 
 LOG_DIR="/var/log/system_monitoring"
 LOG_FILE="$LOG_DIR/monitor.log"
@@ -80,27 +80,23 @@ top -b -n 1 | head -20 >> $LOG_FILE
 
 
 *User Creation*
-## User Creation
+ sarah
+ mike
 
-### Users Created
-- sarah
-- mike
+Comands used
 
-### Commands Used
-```bash
 sudo useradd sarah
 sudo useradd mike
 sudo passwd sarah
 sudo passwd mike
 
-<img width="1280" height="450" alt="Username and Password" src="https://github.com/user-attachments/assets/a0d62854-6481-4c7a-ab88-9c6f334897c2" />
+<img width="1280" height="450" alt="Username and Password" src="https://github.com/user-attachments/assets/b1f85d0b-31bb-4f8f-b2f9-0f5666ffe14e" />
 
 
 ---
 
-## 📄 `task2-user-management/permissions-verification.txt`
+user-management/permissions-verification.txt`
 
-```text
 drwx------ 2 sarah sarah /home/sarah/workspace
 drwx------ 2 mike  mike  /home/mike/workspace
 
@@ -108,14 +104,14 @@ drwx------ 2 mike  mike  /home/mike/workspace
 
 *User-Management & Password Policy*
 
-## Password Policy
+Password Policy
 
-### Configuration
+Configuration
 - Password expiry: 30 days
 - Warning before expiry: 7 days
 
-### Commands Used
-```bash
+Commands Used
+
 sudo chage -M 30 sarah
 sudo chage -M 30 mike
 
@@ -132,11 +128,10 @@ sudo chage -l mike
 
 ---
 
-# 🔹 TASK 3: BACKUP CONFIGURATION
+BACKUP CONFIGURATION
 
-## 📄 `task3-backup-configuration/apache_backup.sh`
+backup-configuration/apache_backup.sh`
 
-```bash
 #!/bin/bash
 
 DATE=$(date +%F)
